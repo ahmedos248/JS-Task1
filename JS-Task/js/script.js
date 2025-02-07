@@ -19,6 +19,9 @@ list.forEach(function (item) {
         count++
         console.log(count)
         selected.innerHTML = count
+        if (count >= 5) {
+            demo.style.overflow = "auto"
+        }
     }
 })
 card.forEach(function (item) {

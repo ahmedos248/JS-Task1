@@ -19,7 +19,6 @@ li {
     right: 0;
     border-radius: 10px !important;
     max-height: 400px;
-    overflow: auto;
     transition: all 0.3s;
 }
 
